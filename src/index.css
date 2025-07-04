@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .device-preview {
+    @apply bg-white rounded-lg shadow-lg overflow-hidden;
+  }
+
+  .device-frame {
+    @apply relative overflow-hidden;
+    transform-origin: top left;
+  }
+
+  .device-frame iframe {
+    @apply bg-white;
+  }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
