@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowsPointingOutIcon, ArrowsPointingInIcon } from '@heroicons/react/24/outline';
+import { ArrowsPointingOutIcon } from '@heroicons/react/24/outline';
 import './DevicePreview.css';
 
 interface DevicePreviewProps {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { DevicePreview } from './components/DevicePreview';
 import { create } from 'zustand';
 
